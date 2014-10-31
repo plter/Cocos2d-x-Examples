@@ -12,6 +12,10 @@
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		319B9DCA1A037FD3008CE12A /* MoveBalls.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 319B9DC81A037FD3008CE12A /* MoveBalls.cpp */; };
+		319B9DCB1A037FD3008CE12A /* MoveBalls.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 319B9DC81A037FD3008CE12A /* MoveBalls.cpp */; };
+		319B9DCE1A0380BD008CE12A /* Ball.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 319B9DCC1A0380BD008CE12A /* Ball.cpp */; };
+		319B9DCF1A0380BD008CE12A /* Ball.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 319B9DCC1A0380BD008CE12A /* Ball.cpp */; };
 		31F508DD1A01F38700DC689B /* ball.png in Resources */ = {isa = PBXBuildFile; fileRef = 31F508DC1A01F38700DC689B /* ball.png */; };
 		31F508DE1A01F38700DC689B /* ball.png in Resources */ = {isa = PBXBuildFile; fileRef = 31F508DC1A01F38700DC689B /* ball.png */; };
 		3EACC98F19EE6D4300EB3C5E /* res in Resources */ = {isa = PBXBuildFile; fileRef = 3EACC98E19EE6D4300EB3C5E /* res */; };
@@ -108,6 +112,10 @@
 		1D6058910D05DD3D006BFB54 /* MoveBall iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MoveBall iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		319B9DC81A037FD3008CE12A /* MoveBalls.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MoveBalls.cpp; sourceTree = "<group>"; };
+		319B9DC91A037FD3008CE12A /* MoveBalls.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoveBalls.h; sourceTree = "<group>"; };
+		319B9DCC1A0380BD008CE12A /* Ball.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Ball.cpp; sourceTree = "<group>"; };
+		319B9DCD1A0380BD008CE12A /* Ball.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ball.h; sourceTree = "<group>"; };
 		31F508DC1A01F38700DC689B /* ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ball.png; sourceTree = "<group>"; };
 		3EACC98E19EE6D4300EB3C5E /* res */ = {isa = PBXFileReference; lastKnownFileType = folder; path = res; sourceTree = "<group>"; };
 		46880B7619C43A67006E1F66 /* CloseNormal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CloseNormal.png; sourceTree = "<group>"; };
@@ -291,6 +299,10 @@
 				46880B8519C43A87006E1F66 /* AppDelegate.h */,
 				46880B8619C43A87006E1F66 /* HelloWorldScene.cpp */,
 				46880B8719C43A87006E1F66 /* HelloWorldScene.h */,
+				319B9DC81A037FD3008CE12A /* MoveBalls.cpp */,
+				319B9DC91A037FD3008CE12A /* MoveBalls.h */,
+				319B9DCC1A0380BD008CE12A /* Ball.cpp */,
+				319B9DCD1A0380BD008CE12A /* Ball.h */,
 			);
 			name = Classes;
 			path = ../Classes;
@@ -492,10 +504,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				46880B8819C43A87006E1F66 /* AppDelegate.cpp in Sources */,
+				319B9DCA1A037FD3008CE12A /* MoveBalls.cpp in Sources */,
 				46880B8A19C43A87006E1F66 /* HelloWorldScene.cpp in Sources */,
 				503AE10017EB989F00D1A890 /* AppController.mm in Sources */,
 				503AE10217EB989F00D1A890 /* RootViewController.mm in Sources */,
 				503AE10117EB989F00D1A890 /* main.m in Sources */,
+				319B9DCE1A0380BD008CE12A /* Ball.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -506,6 +520,8 @@
 				46880B8919C43A87006E1F66 /* AppDelegate.cpp in Sources */,
 				503AE10517EB98FF00D1A890 /* main.cpp in Sources */,
 				46880B8B19C43A87006E1F66 /* HelloWorldScene.cpp in Sources */,
+				319B9DCB1A037FD3008CE12A /* MoveBalls.cpp in Sources */,
+				319B9DCF1A0380BD008CE12A /* Ball.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

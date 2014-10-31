@@ -48,7 +48,7 @@ bool HelloWorld::init()
 
 
 void HelloWorld::update(float dt){
-    ball->setPositionX(ball->getPositionX()+5);
+    ball->setPositionX(ball->getPositionX()+3);
     
     if (ball->getPositionX()>visibleSize.width+ball->getContentSize().width/2) {
         ball->setPositionX(-ball->getContentSize().width/2);
